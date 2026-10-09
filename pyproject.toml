@@ -1,0 +1,26 @@
+[project]
+name = "pdf-extractor"
+version = "0.1.0"
+description = "Bank Statement Parser and Data Extraction System"
+readme = "README.md"
+authors = [
+    { name = "LaxmiNarayana31", email = "laxminarayana3101@gmail.com" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "fastapi>=0.115.0",
+    "httpx>=0.28.0",
+    "openpyxl>=3.1.5",
+    "pandas>=2.2.0",
+    "pdfplumber>=0.11.4",
+    "pydantic-settings>=2.5.0",
+    "pymupdf>=1.24.0",
+    "python-dateutil>=2.9.0",
+    "python-multipart>=0.0.12",
+    "scikit-learn>=1.5.0",
+    "streamlit>=1.40.0",
+    "uvicorn>=0.30.0",
+]
+
+[tool.uv]
+package = false
